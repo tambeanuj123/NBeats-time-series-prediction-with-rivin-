@@ -62,7 +62,7 @@
 * when the code is run once more it moves onto the next csv data and saves its data in the files 
     ** for example -> csv 
 ## Local (Windows Machine) <a name = "local"></a>
-### the file is different named(NBEATS_winodow) to be run on local machine
+### the file is different named(NBEATS_window) to be run on local machine
 ### There are some steps to setup
   1. First ensure [libraries](#best_practices) are installed in you enviornment on which you are gonna run
   2. Create folder named ```content``` in the same directory as the path of code 
