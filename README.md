@@ -23,7 +23,7 @@
   - [Google Colab](#google_colab)
   - [Local (Windows Machine)](#local)
   - [Runnning perticular File First](#first)
-- [Assignemt Question provided (reference)](#why_document)
+- [Assignment Question provided (reference)](#why_document)
 - [References](#acknowledgements)
 
 
@@ -83,7 +83,7 @@
 
 
 
-## Assignemt Question <a name = "why_document"></a>
+## Assignment Question <a name = "why_document"></a>
 
 As part of the evaluation metric for the candidate, the task is to implement a uni-variate forecasting framework using NBEATS and RIVIN in pytorch.
 
@@ -115,4 +115,3 @@ RIVIN paper: [https://openreview.net/pdf?id=cGDAkQo1C0p](https://openreview.net/
 dataset link: [https://drive.google.com/drive/folders/13ifIVRwStWzRVUqhKVWwwa2-NNTE3hb2?usp=sharing](https://drive.google.com/drive/folders/13ifIVRwStWzRVUqhKVWwwa2-NNTE3hb2?usp=sharing)
 
 
-Author by :-Anuj Tambe
