@@ -43,6 +43,8 @@
 
 
 ## Repository <a name = "templates"></a>
+*   There are 2 files one for running the scrpit over google colab named ```NBEATS_Colab.ipynb``` 
+another one ```NBEATS_windows.ipynb``` to run locally over windows machine
 *   The scipt is writtern in Jupyter Notebook ```ipynb``` 
 *   The Code plots the CSV data in a file ```temp.csv```
 *   The scrpit saves the plot shown in the folder in ```content``
