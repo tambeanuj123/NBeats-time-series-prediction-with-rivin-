@@ -23,7 +23,7 @@
   - [Google Colab](#google_colab)
   - [Local (Windows Machine)](#local)
   - [Runnning perticular File First](#first)
-- [Assignment Question provided (reference)](#why_document)
+
 - [References](#acknowledgements)
 
 
@@ -84,28 +84,7 @@ another one ```NBEATS_windows.ipynb``` to run locally over windows machine
 - **NOTE** keep this in mind this will only work for the first instance if you want to reset this clear the ```temp.csv``` in folder ```contents```
 
 
-
-## Assignment Question <a name = "why_document"></a>
-
-As part of the evaluation metric for the candidate, the task is to implement a uni-variate forecasting framework using NBEATS and RIVIN in pytorch.
-
-**(5 pts) NBEATS forecasting pipeline**
-The original NBEATS implementation uses an ensemble of multiple NBEATS models to generate forecasts. However, in this task, the candidate **may choose** to use a single NBEATS model for each time-series, instead of the ensemble. 
-(i.e. 50 local models w/o ensemble for 50 time-series, instead of 1 global model (consisting of multiple NBEATS model) for all time-series ).
-
-NBEATS official implementation: [https://github.com/ElementAI/N-BEATS](https://github.com/ElementAI/N-BEATS)
-
-NBEATS paper: [https://arxiv.org/abs/1905.10437](https://arxiv.org/abs/1905.10437)
-
-**(10 pts) RIVIN implementation**
-RIVIN is a normalisation technique that deals w/ temporal distribution shift in time-series. The pipeline should use RIVIN for normalising the time series. 
-
-RIVIN paper: [https://openreview.net/pdf?id=cGDAkQo1C0p](https://openreview.net/pdf?id=cGDAkQo1C0p)
-
-**(5 pts) Dataset Benchmarks**
-
-The dataset provided consists of 50 time-series csv. The candidate should should use the first 75% of the data in each time-series as training data, and should submit the MAE, MSE, RMSE, MAPE evaluation numbers on the rest of the 25% of the data.
-dataset link: [https://drive.google.com/drive/folders/13ifIVRwStWzRVUqhKVWwwa2-NNTE3hb2?usp=sharing](https://drive.google.com/drive/folders/13ifIVRwStWzRVUqhKVWwwa2-NNTE3hb2?usp=sharing)
+](https://drive.google.com/drive/folders/13ifIVRwStWzRVUqhKVWwwa2-NNTE3hb2?usp=sharing)
 
 ## References <a name = "acknowledgements"></a>
 
